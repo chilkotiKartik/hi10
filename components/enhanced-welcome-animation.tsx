@@ -26,6 +26,7 @@ export function EnhancedWelcomeAnimation({ onComplete }) {
     // Animation sequence
     const stageTimers = [
       setTimeout(() => setAnimationStage(1), 1500),
+      setTimeout(() => setAnimationStage(2), 3000),
       
       setTimeout(() => {
         onComplete()
